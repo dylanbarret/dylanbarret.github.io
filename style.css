@@ -1,0 +1,59 @@
+html,
+body {
+  background-image: url('black.jpg');
+  background-size: cover;
+  height: 100%;
+}
+
+.my-image-1 {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+.my-image-2 {
+  z-index: 0;
+  display: block;
+  float: right;
+  width: 380px;
+  height: 1280px;
+}
+
+.container2 {
+  background-image: url('bok.png');
+  overflow: hidden;
+  align-items: center;
+  position: relative;
+  float: right;
+  height: auto;
+  width: 380px;
+  height: 900px;
+  margin: 0 auto;
+  
+}
+.container3 {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 370px;
+  height: 100px;
+  margin: 0 auto;
+  margin-left: 30px;
+}
+
+.my-button {
+  display: inline-block;
+  color: green;
+  padding: 10px 20px; /* Измените значения отступов по вертикали и горизонтали по вашему усмотрению */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Добавляем отступ между кнопками вниз */
+  margin-left: 300px;
+}
+
+
+}
